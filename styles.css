@@ -15,7 +15,7 @@ body {
 }
 
 .line-break {
-	font-size: 2rem;
+	font-size: 2em;
 }
 
 /*----------image styling----------*/
@@ -27,7 +27,9 @@ body {
 	border-radius: 10px;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	margin:5px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .image-container {
@@ -46,7 +48,6 @@ body {
 
 .time-modal {
 	background-image: url("assets/images/robot_butler.jpg");
-	background-size: 100% 100%;
 }
 
 .fishtown-explorers {
@@ -56,6 +57,51 @@ body {
 .car-phree {
 	background-image: url("assets/images/car_phree.jpg");
 }
+
+/*----------Media Queries----------*/
+
+/* Smartphone break point */
+@media only screen and (max-device-width: 480px) {
+	
+	.image-container {
+		width: 100%;
+		display: block;
+	}
+
+	.line-break {
+		font-size: 1em;
+	}
+}
+
+/*Tablet break point*/
+@media only screen and (min-device-width: 481px) and (max-device-width: 800px) {
+		
+	.image-container {
+		width: 70%;
+		display: block;
+	}
+
+	.line-break {
+		font-size: 1.2em;
+	}
+}
+
+/*Extra Large Screen Sizes*/
+/*@media only screen and (min-device-width: 1200px) and (max-device-width: 4000px) {
+		
+		.image-container {
+		width: 70%;
+		display: block;
+		justify-content: space-around;
+		margin: 0 auto;
+		margin-top: 50px;
+	};
+
+	.line-break {
+		font-size: 1.5em;
+	};
+};*/
+
 
 
 
