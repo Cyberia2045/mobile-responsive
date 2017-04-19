@@ -14,13 +14,20 @@ body {
 	margin-top: 30px;
 }
 
+.line-break {
+	font-size: 2rem;
+}
+
+/*----------image styling----------*/
+
 .image {
 	width: 300px;
 	height: 300px;
 	border: 3px solid white;
 	border-radius: 10px;
-	background-size: cover;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
+	margin:5px;
 }
 
 .image-container {
@@ -36,3 +43,36 @@ body {
 	margin:0 auto;
 	background-image: url("assets/images/sagar.jpg");
 }
+
+.time-modal {
+	background-image: url("assets/images/robot_butler.jpg");
+	background-size: 100% 100%;
+}
+
+.fishtown-explorers {
+	background-image: url("assets/images/Fishtown.jpg");
+}
+
+.car-phree {
+	background-image: url("assets/images/car_phree.jpg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
