@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: teal;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+.main-heading {
+	font-size: 3rem;
+	margin-top: 30px;
+}
+
+.image {
+	width: 300px;
+	height: 300px;
+	border: 3px solid white;
+	border-radius: 10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.image-container {
+	width: 90%;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.bio-pic {
+	margin:0 auto;
+	background-image: url("assets/images/sagar.jpg");
+}
