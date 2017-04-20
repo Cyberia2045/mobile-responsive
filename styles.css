@@ -2,10 +2,25 @@
 	box-sizing: border-box;
 }
 
+html {
+	position: relative;
+	min-height: 100%;
+}
+
 body {
 	background-color: teal;
 	color: white;
 	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	margin: 0 0 100px;
+}
+
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
 	text-align: center;
 }
 
@@ -85,13 +100,14 @@ body {
 		font-size: 1.2em;
 	}
 }
-
+		
 /*Extra Large Screen Sizes*/
 @media only screen and (min-device-width: 1360px) and (max-device-width: 4000px) {
-		
+	
 	.image-container {
-		width: 95%;
-		display: block;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
 	}
 
 	.time-modal {
@@ -101,14 +117,29 @@ body {
 		margin:0 auto;
 	}
 
-	.XL-container {
-		display: flex;
-		justify-content: space-around;
-		margin-top: 20px;
-	}
+};
 
+/*----------footer styling----------*/
 
+.footer-links {
+	color:white;
+}
 
+.footer-links:link {
+	background-color: rgba(169,169,169,0.7);
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.7em;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	border: 2px solid black;
+	margin: 5px;
+}
+
+.footer-links:hover {
+	color:darkred;
+}
 
 
 
