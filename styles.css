@@ -76,7 +76,7 @@ footer {
 /*----------Media Queries----------*/
 
 /* Smartphone break point */
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
 	
 	.image-container {
 		width: 100%;
@@ -89,7 +89,7 @@ footer {
 }
 
 /*Tablet break point*/
-@media only screen and (min-device-width: 481px) and (max-device-width: 800px) {
+@media only screen and (min-width: 481px) and (max-width: 800px) {
 		
 	.image-container {
 		width: 70%;
@@ -102,7 +102,7 @@ footer {
 }
 		
 /*Extra Large Screen Sizes*/
-@media only screen and (min-device-width: 1360px) and (max-device-width: 4000px) {
+@media only screen and (min-width: 1360px) and (max-width: 4000px) {
 	
 	.image-container {
 		width: 100%;
